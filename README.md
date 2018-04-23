@@ -15,7 +15,9 @@ All assets in this repo can also be viewed and downloaded from [oceanprotocol.co
 
 Our branding typefaces are [Sharp Sans Medium/Bold](https://sharptype.co/typefaces/sharp-sans/#features) in use as body text, and [Sharp Sans Display No. 1 Bold](https://sharptype.co/typefaces/sharp-sans-display-no1/) for headings.
 
-Those are commercial fonts and the license doesn't allow us to distribute them. Hence you won't find them in this repository. If you're a member of the Ocean Protocol team ask a designer to hand you the font files.
+Those are commercial fonts and the license doesn't allow us to distribute them. Hence you won't find them in this repository. If you're a member of the Ocean Protocol team ask a designer to hand you the font files. 
+
+If you only need them for use on the web, you can grab them from inside the private `site` repo's [fonts folder](https://github.com/oceanprotocol/site/tree/master/public/fonts).
 
 ## Usage
 
