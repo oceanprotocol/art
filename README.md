@@ -2,12 +2,68 @@
 
 > 🐳 Ocean Protocol's assets for community distribution.
 
-_Developing_
+All assets in this repo can also be viewed and downloaded from [oceanprotocol.com/art](https://oceanprotocol.com/art). You'll find a living styleguide there too.
 
-## Use as Git submodule
+## Repository Contents
+
+- [Logo](logo/)
+- [Banner](banner/)
+- [Jellyfish](jellyfish/)
+- [GitHub](github/)
+
+## Typography
+
+Our branding typefaces are [Sharp Sans Medium/Bold](https://sharptype.co/typefaces/sharp-sans/#features) in use as body text, and [Sharp Sans Display No. 1 Bold](https://sharptype.co/typefaces/sharp-sans-display-no1/) for headings.
+
+Those are commercial fonts and the license doesn't allow us to distribute them. Hence you won't find them in this repository. If you're a member of the Ocean Protocol team ask a designer to hand you the font files.
+
+## Usage
+
+It's encouraged to use this repo as a submodule within your projects to keep the assets in sync. From the root of your project folder execute the following to put the submodule under `lib/art/`:
 
 ```bash
-git submodule add git@github.com:oceanprotocol/art.git art
+git submodule add git@github.com:oceanprotocol/art.git ./lib/art
+```
+
+Then, fom time to time, update the submodule to get latest upstream changes:
+
+```bash
+# go into submodule folder
+cd ./lib/art
+git checkout master
+git pull
+# get back to your project root
+cd ../../
+
+# or if you're a busy person, update all your submodules at once from the root of your project
+git submodule foreach git pull origin master
+```
+
+### Usage in JavaScript/React
+
+Import the required assets into your project, which will return the file source path:
+
+```js
+import Logo from './lib/art/logo/logo.svg'
+
+<img src={Logo} />
+```
+
+But you usually want SVG assets to be inlined for full control over styling with CSS. To achieve that, you can incorporate [svgr](https://github.com/smooth-code/svgr) into your build process to import SVG assets as actual React components:
+
+```js
+import Logo from './lib/art/logo/logo.svg'
+
+<Logo className="logo" />
+```
+
+And then style away in CSS:
+
+```css
+.logo {
+    fill: #141414;
+    stroke: none;
+}
 ```
 
 ## License
