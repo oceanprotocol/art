@@ -15,7 +15,7 @@ All assets in this repo can also be viewed and downloaded from [oceanprotocol.co
 
 Our branding typefaces are [Sharp Sans Medium/Bold](https://sharptype.co/typefaces/sharp-sans/#features) in use as body text, and [Sharp Sans Display No. 1 Bold](https://sharptype.co/typefaces/sharp-sans-display-no1/) for headings.
 
-Those are commercial fonts and the license doesn't allow us to distribute them. Hence you won't find them in this repository. If you're a member of the Ocean Protocol team ask a designer to hand you the font files. 
+Those are commercial fonts and the license doesn't allow us to distribute them. Hence you won't find them in this repository. If you're a member of the Ocean Protocol team ask a designer to hand you the font files.
 
 If you only need them for use on the web, you can grab them from inside the private `site` repo's [fonts folder](https://github.com/oceanprotocol/site/tree/master/public/fonts).
 
@@ -24,10 +24,10 @@ If you only need them for use on the web, you can grab them from inside the priv
 It's encouraged to use this repo as a submodule within your projects to keep the assets in sync. From the root of your project folder execute the following to put the submodule under `lib/art/`:
 
 ```bash
-git submodule add git@github.com:oceanprotocol/art.git ./lib/art
+git submodule add git@github.com:oceanprotocol/art.git lib/art
 ```
 
-Then, fom time to time, update the submodule to get latest upstream changes:
+Then, from time to time, update the submodule to get latest upstream changes:
 
 ```bash
 # go into submodule folder
