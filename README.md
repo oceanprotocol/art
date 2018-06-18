@@ -1,5 +1,7 @@
 [![art](github/repo-banner@2x.png)](https://oceanprotocol.com)
 
+<h1 align="center">art</h1>
+
 > 🐳 Ocean Protocol's assets for community distribution.
 
 [![npm](https://img.shields.io/npm/v/@oceanprotocol/art.svg)](https://www.npmjs.com/package/@oceanprotocol/art)
