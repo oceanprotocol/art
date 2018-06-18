@@ -1,5 +1,5 @@
 {
-  "name": "oceanprotocol-art",
+  "name": "@oceanprotocol/art",
   "version": "1.0.0",
   "description": "Ocean Protocol's assets for community distribution.",
   "main": "index.js",
