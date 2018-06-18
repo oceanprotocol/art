@@ -2,11 +2,6 @@
 
 Use the repo banner to decorate an official Ocean Protocol repository's readme file.
 
-## Prerequisites
-
-- [Sketch](https://www.sketchapp.com)
-- Sharp Sans Display No. 1 Bold installed, see [note](../README.md#typography)
-
 ## Usage
 
 1. Open the Sketch file
@@ -20,4 +15,26 @@ Use the repo banner to decorate an official Ocean Protocol repository's readme f
 
 Which will return:
 
-![](repo-banner@2x.png)
+[![art](repo-banner@2x.png)](https://oceanprotocol.com)
+
+Always start a project's readme file like so:
+
+```md
+[![banner](repo-banner@2x.png)](https://oceanprotocol.com)
+
+<h1 align="center">repo-name</h1>
+
+> 🐳 Start with emoji, then add a tagline describing your project.
+
+[![npm](https://img.shields.io/npm/v/@oceanprotocol/art.svg)](https://www.npmjs.com/package/@oceanprotocol/art)
+````
+
+Which will return:
+[![banner](repo-banner@2x.png)](https://oceanprotocol.com)
+
+<h1 align="center">repo-name</h1>
+
+> 🐳 Start with emoji, then add a tagline describing your project.
+
+[![npm](https://img.shields.io/npm/v/@oceanprotocol/art.svg)](https://www.npmjs.com/package/@oceanprotocol/art)
+
