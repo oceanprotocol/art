@@ -20,6 +20,7 @@
   },
   "homepage": "https://oceanprotocol.com",
   "devDependencies": {
-    "release-it": "^7.4.6"
+    "release-it": "^7.4.6",
+    "theo": "^7.0.1"
   }
 }
