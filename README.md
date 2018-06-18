@@ -2,7 +2,7 @@
 
 > 🐳 Ocean Protocol's assets for community distribution.
 
-[![npm](https://img.shields.io/npm/v/oceanprotocol-art.svg)](https://www.npmjs.com/package/oceanprotocol-art)
+[![npm](https://img.shields.io/npm/v/@oceanprotocol/art.svg)](https://www.npmjs.com/package/@oceanprotocol/art)
 
 All assets in this repo can also be viewed and downloaded from [oceanprotocol.com/art](https://oceanprotocol.com/art). You'll find a living styleguide there too.
 
@@ -26,7 +26,7 @@ If you only need them for use on the web, you can grab them from inside the priv
 It's encouraged to use this repo as a dependency within your projects to keep the assets in sync. The whole repo is published as a npm module so just run for installation:
 
 ```bash
-npm install oceanprotocol-art
+npm i @oceanprotocol/art
 ```
 
 ### Use as a submodule
