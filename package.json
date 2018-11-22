@@ -20,6 +20,6 @@
   },
   "homepage": "https://oceanprotocol.com",
   "devDependencies": {
-    "release-it": "^7.4.6"
+    "release-it": "^8.0.1"
   }
 }
