@@ -8,12 +8,23 @@
 
 All assets in this repo can also be viewed and downloaded from [oceanprotocol.com/art](https://oceanprotocol.com/art). You'll find a living styleguide there too.
 
+- [Repository Contents](#repository-contents)
+- [Typography](#typography)
+- [Usage](#usage)
+  - [Use as npm package](#use-as-npm-package)
+  - [Use as a submodule](#use-as-a-submodule)
+  - [Usage in JavaScript/React](#usage-in-javascriptreact)
+- [License](#license)
+
+---
+
 ## Repository Contents
 
 - [Logo](logo/)
 - [Banner](banner/)
 - [Jellyfish](jellyfish/)
-- [Mantaray](mantaray/)
+- [Manta ray](mantaray/)
+- [Squid](squid/)
 - [GitHub](github/)
 
 ## Typography
@@ -26,7 +37,11 @@ If you only need them for use on the web, you can grab them from inside the priv
 
 ## Usage
 
-It's encouraged to use this repo as a dependency within your projects to keep the assets in sync. The whole repo is published as a npm module so just run for installation:
+It's encouraged to use this repo as a dependency within your projects to keep the assets in sync.
+
+### Use as npm package
+
+The whole repo is published as a npm module so just run for installation:
 
 ```bash
 npm i @oceanprotocol/art
@@ -59,7 +74,7 @@ git submodule foreach git pull origin master
 Import the required assets into your project, which will return the file source path:
 
 ```js
-import Logo from './lib/art/logo/logo.svg'
+import Logo from '@oceanprotocol/art/logo/logo.svg'
 
 <img src={Logo} />
 ```
@@ -67,7 +82,7 @@ import Logo from './lib/art/logo/logo.svg'
 But you usually want SVG assets to be inlined for full control over styling with CSS. To achieve that, you can incorporate [svgr](https://github.com/smooth-code/svgr) into your build process to import SVG assets as actual React components:
 
 ```js
-import Logo from './lib/art/logo/logo.svg'
+import Logo from '@oceanprotocol/art/logo/logo.svg'
 
 <Logo className="logo" />
 ```
