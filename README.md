@@ -19,6 +19,7 @@ All assets in this repo can also be viewed and downloaded from [oceanprotocol.co
 
 - [Logo](logo/)
 - [Banner](banner/)
+- [Waves](waves/)
 - [Creatures](creatures/)
 - [GitHub](github/)
 
