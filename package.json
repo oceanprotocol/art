@@ -19,8 +19,8 @@
   },
   "homepage": "https://oceanprotocol.com",
   "devDependencies": {
-    "auto-changelog": "^2.0.0",
-    "release-it": "^13.6.2"
+    "auto-changelog": "^2.1.0",
+    "release-it": "^13.6.4"
   },
   "release-it": {
     "hooks": {
