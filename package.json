@@ -1,13 +1,12 @@
 {
   "name": "@oceanprotocol/art",
   "version": "2.2.0",
-  "description": "Ocean Protocol's assets for community distribution.",
+  "description": "Ocean Protocol's brand assets for community distribution.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "./node_modules/release-it/bin/release-it.js --src.tagName='v%s' --github.release --npm.publish --non-interactive",
-    "release-minor": "./node_modules/release-it/bin/release-it.js minor --src.tagName='v%s' --github.release --npm.publish --non-interactive",
-    "release-major": "./node_modules/release-it/bin/release-it.js major --src.tagName='v%s' --github.release --npm.publish --non-interactive"
+    "release": "release-it",
+    "changelog": "auto-changelog -p"
   },
   "repository": {
     "type": "git",
@@ -20,6 +19,21 @@
   },
   "homepage": "https://oceanprotocol.com",
   "devDependencies": {
-    "release-it": "^8.0.1"
+    "auto-changelog": "^2.1.0",
+    "release-it": "^13.6.4"
+  },
+  "release-it": {
+    "hooks": {
+      "after:bump": "npm run changelog"
+    },
+    "git": {
+      "tagName": "v${version}"
+    },
+    "github": {
+      "release": true
+    },
+    "npm": {
+      "publish": true
+    }
   }
 }
