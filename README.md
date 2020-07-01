@@ -49,7 +49,7 @@ Our branding typefaces are [Sharp Sans Medium/Bold](https://sharptype.co/typefac
 
 Those are commercial fonts and the license doesn't allow us to distribute them. Hence you won't find them in this repository. If you're a member of the Ocean Protocol team, ask a designer to hand you the font files.
 
-If you only need them for use on the web, you can grab them from inside the private `site` repo's [fonts folder](https://github.com/oceanprotocol/site/tree/master/src/global/fonts).
+If you only need them for use on the web, you can use the private [`typographies`](https://github.com/oceanprotocol/typographies) npm package, or grab the font files itself from inside the private `site` repo's [fonts folder](https://github.com/oceanprotocol/site/tree/main/src/global/fonts).
 
 ## License
 
